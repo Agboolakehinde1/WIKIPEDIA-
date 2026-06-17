@@ -16,3 +16,122 @@ body{
 
     background-color: #101418;
 }
+
+
+.wikipedia-parent{
+    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+    margin: 70px auto;
+    text-align: center;
+}
+.wikipedia-parent>div{
+   font-size: 15px;
+   font-weight: 400;
+   color: white;
+}
+
+.WIKIPEDIA{
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+.box {
+    height: 350px;
+    width: 350px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 0 auto 0;
+    position: relative;
+    text-align: center;
+}
+
+
+.box > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.box>div{
+    position: absolute;
+}
+
+
+.child-child1 {
+    /* position: absolute; */
+    top: 70px;
+    left: -90px;
+}
+
+.child-child2 {
+    /* position: absolute; */
+    top: 150px;
+    left: -120px;
+}
+
+.child-child3 {
+    top: 230px;
+    left: -120px;
+}
+
+.child-child4 {
+    top: 310px;
+    left: -90px;
+}
+
+.child-child5 {
+    top: 390px;
+    left: -20px;
+}
+
+.child-child6 {
+    top: 70px;
+    right: -90px;
+}
+
+.child-child7 {
+    top: 150px;
+    right: -120px;
+}
+
+.child-child8 {
+    top: 230px;
+    right: -120px;
+}
+
+.child-child9 {
+    top: 310px;
+    right: -90px;
+}
+
+.child-child10 {
+    top: 390px;
+    right: -20px;
+}
+
+
+.child-child1,
+.child-child2,
+.child-child3,
+.child-child4,
+.child-child5 {
+    text-align: right;
+}
+
+.child-child6,
+.child-child7,
+.child-child8,
+.child-child9,
+.child-child10 {
+    text-align: left;
+}
+
+
+
+
