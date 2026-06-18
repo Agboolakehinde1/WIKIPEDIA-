@@ -166,6 +166,7 @@ body{
     position: absolute;
     background: transparent;
     color: white;
+    margin-right: 10px;
 }
 
 
@@ -177,6 +178,18 @@ body{
     /* margin-right: 20px; */
     border: none;
     color: rgb(107, 139, 143);
+}
+
+.dropdown2{
+    margin-left: 620px;
+    height: 35px;
+    width: 300px;
+    border: 2px solid;
+    border-color: #3366cc;
+    background: transparent;
+    color: #71a3e8;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 
